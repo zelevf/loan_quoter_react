@@ -1,5 +1,3 @@
-import "../../styles/styles.css";
-
 function Button2({ operator, fn }) {
   return (
     <div>
@@ -9,7 +7,7 @@ function Button2({ operator, fn }) {
         onClick={fn}
       >
         {operator}
-        <img src="../../public/more.png" alt="" className="w-4 m-auto" />
+        <img src="/more.png" alt="" className="w-4 m-auto" />
       </button>
     </div>
   );
